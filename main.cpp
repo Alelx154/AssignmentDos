@@ -11,7 +11,7 @@
 using namespace std;
 
 int main() {
-    
+    //Variables to be put into function calls
     string nameOne = "No Name";
     string nameTwo = "No Name";
 
@@ -42,7 +42,7 @@ int main() {
     cin >> hoursWorked;
 
 
-
+    //Function calls for employee classes
     Professional professional(nameOne, emplID, monthlySalary1);
     Nonprofessional nonProfessional(nameTwo, empIDTwo, hourlySalary, hoursWorked);
 
